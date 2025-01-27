@@ -1,7 +1,7 @@
 # genesis_multi_gpu
 
 #### Description
-Contains python helper script allowing for multi-GPU use of the Genesis physics engine, given a genesis python file, and enables parallel execution of scripts across multiple GPUs while aggregating their FPS (Frames Per Second) performance metrics and crazy overkill performance (192 *million* FPS on 8x RTX 4070 Ti Super System).
+Contains python helper script allowing for multi-GPU use of the Genesis physics engine, given a genesis python file, and enables parallel execution of scripts across multiple GPUs while aggregating their FPS (Frames Per Second) performance metrics and crazy overkill performance (192 *million* FPS on 8x RTX 4070 Ti Super build compared to the project's stated 43 million FPS single RTX 4090 build benchmark, which would yield 344 *million* FPS if done with 8x RTX 4090 GPUs).
 
 Link to the Genesis Project: https://github.com/Genesis-Embodied-AI/Genesis
 
