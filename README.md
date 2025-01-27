@@ -4,7 +4,7 @@
 Contains python helper script allowing for multi-GPU use of a given genesis python file, enables parallel execution of scripts across multiple GPUs while monitoring and aggregating their FPS (Frames Per Second) performance metrics.
 
 #### Key Features
-- **Parallel GPU Execution**: Runs the same script simultaneously across multiple GPUs
+- **Parallel GPU Execution**: Runs the same script simultaneously across multiple GPUs to turn each genesis python file to become a paralleized worker
 - **Automatic GPU Detection**: Uses PyTorch to detect available GPUs and distribute workload
 - **FPS Monitoring**: Captures and parses FPS metrics from script outputs
 - **Flexible GPU Selection**: Allows specifying number of GPUs or defaults to all available
