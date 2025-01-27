@@ -13,6 +13,9 @@ Contains python helper script allowing for multi-GPU use of a given genesis pyth
 ```bash
 python script_runner.py --script <path_to_your_script> [--gpus <number_of_gpus>]
 ```
+[note]
+- The GPU argument is not needed, as by default the script will use all GPUs that are visable to NVIDIA on your system and treat them as the same type of GPU
+- The tuning involving how you maximize your FPS is up to you regarding how many parallel environments and other parameters you delegate to each GPU 
 
 #### How It Works
 
