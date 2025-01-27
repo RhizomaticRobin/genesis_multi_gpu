@@ -19,7 +19,7 @@ Link to the Genesis Project: https://github.com/Genesis-Embodied-AI/Genesis
 ```bash
 python script_runner.py --script <path_to_your_script> [--gpus <number_of_gpus>]
 ```
-[small note]
+[small notes]
 - The GPU argument is not necessary to use all the time, by default the script will use all GPUs that are visable to NVIDIA on your system and treat them as the same type of GPU
 - The tuning involving how you maximize your FPS is up to you regarding how many parallel environments and other parameters you delegate to each GPU (I used ```watch -n 1 nvidia-smi``` to monitor how many resources were being consumed)
 - Upon starting up, there may be some strange errors that have to do with a race condition (like ```pickle truncated``` or something esoteric like that), but these went away for me when I tried the script again (make sure you clear out the processes taking up VRAM beforehand if that's a case by either killing those processes with kill -9 *process id* or just rebooting).
