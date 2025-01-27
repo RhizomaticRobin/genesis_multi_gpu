@@ -1,7 +1,10 @@
 # genesis_multi_gpu
 
 #### Description
-Contains python helper script allowing for multi-GPU use of a given genesis python file, enables parallel execution of scripts across multiple GPUs while monitoring and aggregating their FPS (Frames Per Second) performance metrics.
+Contains python helper script allowing for multi-GPU use of the Genesis physics engine, given a genesis python file, and enables parallel execution of scripts across multiple GPUs while aggregating their FPS (Frames Per Second) performance metrics.
+
+Link to the Genesis Project: https://github.com/Genesis-Embodied-AI/Genesis
+
 
 #### Key Features
 - **Parallel GPU Execution**: Runs the same script simultaneously across multiple GPUs to turn each genesis python file to become a paralleized worker
