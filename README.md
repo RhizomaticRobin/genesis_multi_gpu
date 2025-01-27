@@ -37,7 +37,7 @@ python script_runner.py --script <path_to_your_script> [--gpus <number_of_gpus>]
 
 4. **Results**:
 - Displays individual GPU performance
-- Calculates and shows combined performance metric (Last GPU's FPS × Number of GPUs)
+- Calculates and shows combined (approximate) performance metric (Last GPU's FPS × Number of GPUs)
 
 #### Requirements
 - Python 3.x
