@@ -48,4 +48,4 @@ python script_runner.py --script <path_to_your_script> [--gpus <number_of_gpus>]
 - The script being run must output performance in the format "Running at XXX FPS"
 - Handles errors gracefully if no GPUs are detected
 - Supports both single and multi-GPU configurations
-- This creates 8 different scenes, which may be an issue if a single scene containing all simulations is needed to do other processes. This needs a single scene to be built into this that the other scripts can access in order for that to work if that is an issue (not sure yet if that would be an issue)
+- This creates [n] different scenes based on how many GPUs you have, which may be an issue if a single scene containing all simulations is needed to do other processes. This needs a single scene to be built into this that the other scripts can access in order for that to work if that is an issue (not sure yet if that would be an issue)
